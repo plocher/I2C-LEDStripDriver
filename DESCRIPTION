@@ -6,3 +6,9 @@ Each LED output has its own 12-bit resolution (4096 steps) fixed frequency indiv
 
 This design drives 2x RGB LED strips and 2x "white" strips - one set for backdrop lighting (dawn and dusk sunsets...) and the other for overhead (sunlight) valence illumination.
 
+
+The 2.0 version includes a Wemos D1 8266 as a stand alone controller; I plan for this board to be used as-is with distributed lighting installations around my layout, all responding to the same "broadcast" lighting control channel over MQTT.
+
+The I2C interface can be used to connect a [I2C-AD4DA](/pages/I2C-AD4DA) and [AD4DA-LightUI](/pages/AD4DA-LightUI.html) for manual lighting control and presets.
+
+
